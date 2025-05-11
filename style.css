@@ -27,6 +27,33 @@ img {
     text-align: center;
     position: relative;
 }
+/* Center the menu and give it space */
+.menu {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+/* Style the list to show items inline */
+.menu-list {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    padding: 0;
+    margin: 0;
+}
+
+/* Style each menu item as a pink box */
+.menu-item {
+    background-color: rgb(247, 217, 224); /* light pink */
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+}
 
 /* BIG text styling for the hero section text */
 .hero-text {
@@ -60,6 +87,11 @@ img {
     padding: 1em;
     border-radius: 0.5em;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
 }
 
 /* Styling for the topic card titles */
