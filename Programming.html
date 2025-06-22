@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>My Showcase Website</title>
+    <script>
+        function openPopup(imageSrc) {
+          window.open(imageSrc, 'ImagePopup', 'width=800,height=600,top=100,left=100,resizable=yes,scrollbars=yes');
+        }
+        </script>
 </head>
 <!-- This is the main body of the website- ALL your content goes AFTER the <body> tag and before the </body> tag -->
 <body>
@@ -39,11 +44,11 @@
                 <h2 class="topic-card-text">Programming with Python 2</h2>
             </div>
             <div class="topic-card">
-                <img src="images/Programming2.png" alt="Programming with Python 4">
+                <img src="images/Programming2.png" alt="Programming with Python 4" onclick="openPopup(this.src)" style="cursor:pointer;">
                 <h2 class="topic-card-text">Programming with Python 4</h2>
             </div>
             <div class="topic-card">
-                <img src="images/Programming.png" alt="Programming with Python 8">
+                <img src="images/Programming.png" alt="Programming with Python 8" onclick="openPopup(this.src)" style="cursor:pointer;">
                 <h2 class="topic-card-text">Programming with Python 8</h2>
             </div>
         </div>
