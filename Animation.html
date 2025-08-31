@@ -31,22 +31,28 @@
     <section class="topic">
         <!-- the topic title a big bar with text in it -->
         <div class="topic-title">
-            <h1>Computer Science</h1>
+            <h1>Animation</h1>
         </div>
         <!-- now a three column grid of images -->
         <div class="topic-content">
             <!-- one "card" which includes an image with a text below it -->
             <div class="topic-card">
-                <img src="images/ComputerScience.png" alt="hexidecimal and binary">
-                <h2 class="topic-card-text">Hexidecimal and Binary</h2>
+                <img src="images/Animation screenshot.png" alt="Start of animation">
+                <h2 class="topic-card-text">Start of Animation</h2>
             </div>
+                <div class="topic-card">
+                    <video autoplay muted loop playsinline width="100%">
+                        <!-- Try .mp4 first for better support -->
+                        <source src="images/Animationblend.mov" type="video/mp4">
+                        <!-- Fallback if you only have .mov -->
+                        <source src="images/Animationblend.mov" type="video/quicktime">
+                        Your browser does not support the video tag.
+                    </video>
+                    <h2 class="topic-card-text">Animation Blend Video</h2>
+                </div>
             <div class="topic-card">
-                <img src="images/2ndcomputerscience.png" alt="ASCII">
-                <h2 class="topic-card-text">ASCII</h2>
-            </div>
-            <div class="topic-card">
-                <img src="images/3ComputerScience.png" alt="Sorting Algorithms">
-                <h2 class="topic-card-text">Sorting Algorithms</h2>
+                <img src="images/Animation Screenshot 2.png" alt="End of Dab">
+                <h2 class="topic-card-text">End of Dab</h2>
             </div>
         </div>
     </section>
